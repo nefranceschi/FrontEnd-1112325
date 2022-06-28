@@ -1,0 +1,93 @@
+body{
+    background: rgb(0, 29, 29);
+}
+
+ul{
+    margin:1px;
+    padding:1px;
+}
+
+li{
+    
+}
+.logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.container{
+    border:0.1em #FFF solid;
+    border-color:#FFF;
+    border-radius: 1em;
+    padding:1em;
+}
+
+.containerProfile{
+    border:0.1em #FFF solid;
+    border-color:#FFF;
+    border-radius: 1em;
+    padding:1em;
+}
+
+.listUsers{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.userCard{
+    display: flex;
+    flex-wrap: nowrap;
+    border: 0.1em #FFF solid;
+    border-radius: 0.5em;
+    min-width: 33%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.photoUser{
+    border:2px black solid; 
+    border-radius: 2em;
+    margin-left: 0.5em; 
+    width: 3em;
+    height: 3em;
+    justify-self: flex-start;
+}
+.nameUser{
+    padding-left: 0.5em;
+    font-size: 2em;
+    color:#AAA;
+}
+.arrowUser{
+    font-size: 2em;
+    margin-left:auto;
+}
+.back{
+    margin-left: auto;
+}
+.cabecera{
+    display: flex;
+}
+.containerSearch {
+    display:flex;
+    height: 3em;
+}
+.dataContainer{
+    min-width: auto;
+    min-height: 10em;
+    border:0.1em grey solid;
+    border-radius: 1em;
+}
+
+.dataUser{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
